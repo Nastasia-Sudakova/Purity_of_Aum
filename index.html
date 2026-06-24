@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="preload" href="./stylesheets/style.css" as="style">
+    <link rel="prefetch" href="./pages/zvuk.html" as="document">
+    <title>Purity of Aum</title>
+</head>
+<body>
+    <!-- Фоновые анимации с падающей листвой -->
+    <div class="forest-bg">
+        <div class="floating-leaf"></div>
+        <div class="floating-leaf"></div>
+        <div class="floating-leaf"></div>
+        <div class="floating-leaf"></div>
+        <div class="floating-leaf"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-left">
+            <div class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul class="nav-menu-left">
+                    <li><a href="./pages/zvuk.html">Звукотерапия</a></li>
+                    <li><a href="./pages/articles.html">Статьи</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <a href="./index.html" class="logo">Purity of Aum</a>
+
+        <div class="header-right">
+            <nav>
+                <ul class="nav-menu-right">
+                    <li><a href="./pages/vzaim.html">Взаимодействие</a></li>
+                    <li><a href="./pages/tests.html">Тесты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SIDE MENU -->
+    <div class="side-menu-overlay" id="sideMenuOverlay"></div>
+    <div class="side-menu" id="sideMenu">
+        <ul class="side-menu-list">
+            <li class="side-menu-item">
+                <a href="./index.html" class="side-menu-link">Главная</a>
+            </li>
+            <li class="side-menu-item">
+                <a href="./pages/zvuk.html" class="side-menu-link">Звукотерапия</a>
+            </li>
+            <li class="side-menu-item has-submenu">
+                <a href="./pages/articles.html" class="side-menu-link">Статьи</a>
+                <div class="submenu">
+                    <ul class="side-menu-list">
+                        <li class="submenu-item"><a href="./pages/articles.html#origin" class="submenu-link" data-filter="origin">Возникновение звука</a></li>
+                        <li class="submenu-item"><a href="./pages/articles.html#influence" class="submenu-link" data-filter="influence">Влияние звука</a></li>
+                        <li class="submenu-item"><a href="./pages/articles.html#meditation" class="submenu-link" data-filter="meditation">Медитации</a></li>
+                        <li class="submenu-item"><a href="./pages/articles.html#instruments" class="submenu-link" data-filter="instruments">Музыкальные инструменты</a></li>
+                        <li class="submenu-item"><a href="./pages/articles.html#interviews" class="submenu-link" data-filter="interviews">Интервью</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="side-menu-item has-submenu">
+                <a href="./pages/vzaim.html" class="side-menu-link">Взаимодействие</a>
+                <div class="submenu">
+                    <ul class="side-menu-list">
+                        <li class="submenu-item"><a href="./pages/vzaim.html#tab-meditation" class="submenu-link">Практическая медитация</a></li>
+                        <li class="submenu-item"><a href="./pages/vzaim.html#tab-developments" class="submenu-link">Современные разработки</a></li>
+                        <li class="submenu-item"><a href="./pages/vzaim.html" class="submenu-link">Специалисты</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="side-menu-item">
+                <a href="./pages/tests.html" class="side-menu-link">Тесты</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="decorative-pattern pattern-left"></div>
+        <div class="decorative-pattern pattern-right"></div>
+        
+        <img src="./img/glav_pages/glav_fon1.png" alt="" class="hero-image" onerror="this.style.display='none'">
+        <div class="hero-overlay"></div>
+        
+        <!-- Центральный контент -->
+        <div class="hero-content">
+            <h1 class="hero-title">Purity of Aum</h1>
+            <p class="hero-subtitle">гармоничные частоты восстанавливают энергетический баланс
+            </p>
+        </div>
+
+        <!-- Нижняя часть -->
+        <footer class="hero-footer">
+            <div class="footer-text">
+                звук - это вибрация, которая воздействует на всё наше тело.
+            </div>
+            
+            <div class="partners">
+                <div class="partner-logo">
+                    <div class="partner-icon">🇬</div>
+                    <span>STATE GOVT.</span>
+                </div>
+                <div class="partner-logo">
+                    <div class="partner-icon">🌿</div>
+                    <span>SAVE FOREST</span>
+                </div>
+                <div class="partner-logo">
+                    <div class="partner-icon">🌳</div>
+                    <span>LIVE GREEN</span>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- SECTION 2 - PURPOSE -->
+    <div class="section2_purpose">
+        <p class="w6">Наша цель — помочь вам понять силу звука и научиться использовать его для блага</p>
+    </div>
+
+    <!-- SECTION 3 - THEATH -->
+    <div class="section3_theath">
+        <div class="e1">
+           <div id="e1">
+                <p class="e1_1">мы рассказываем о пользе</p>
+            </div>
+            <p class="e1_11">Исследуем, как звуки помогают снять стресс, улучшить сон и внутреннее самочувствие.</p>
+        </div>
+         <div class="e2">
+            <div id="e2">
+                <p class="e2_2">мы объясняем, с чего начать</p>
+            </div>
+            <p class="e2_22">Делимся практическими, ценными и безопасными советами, а также знакомим с инструментами, которые используют специалисты.</p>
+        </div>
+        <div class="e3">
+            <div id="e3">
+                <p class="e3_3">мы объясняем, как это работает</p>
+            </div>
+            <p class="e3_33">Простым языком рассказываем о законах физики, таких как резонанс и вибрации, чтобы каждый понял.</p>
+        </div>
+    </div>
+
+    <!-- SECTION 4 - POINTS -->
+    <section class="section4_points">
+        <div class="container">
+            <!-- <div class="vetki">
+                <img src="./img/glav_pages/vetki.png" alt="Decorative vines">
+            </div> -->
+
+            <div class="points-wrapper">
+                <div class="point-item">
+                    <div class="point-number">01</div>
+                    <div class="point-content">
+                        <h3 class="point-title">Научные данные</h3>
+                        <p class="point-description">
+                            Мы объединяем древние знания о звукотерапии с современным пониманием вибрационной биомеханики. Наша работа основана на исследованиях и практических результатах.
+                        </p>
+                        <a href="./pages/zvuk.html" class="point-button">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="point-item">
+                    <div class="point-number">02</div>
+                    <div class="point-content">
+                        <h3 class="point-title">Интервью со специалистами</h3>
+                        <p class="point-description">
+                            В ходе интервью с экспертами — от этномузыкологов до исследователей биомеханического резонанса — мы сопоставили исторические практические данные о физиологическом отклике организма на акустические стимулы.
+                        </p>
+                        <a href="#" class="point-button">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="point-item">
+                    <div class="point-number">03</div>
+                    <div class="point-content">
+                        <h3 class="point-title">Тесты для самопознания</h3>
+                        <p class="point-description">
+                            Тестовые методики, выстроенные на стыке феноменологической традиции и исследований метакогнитивных процессов, предоставляют пользователю не оценку, а пространство для осмысления собственного опыта.
+                        </p>
+                        <a href="./pages/tests.html" class="point-button">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="point-item">
+                    <div class="point-number">04</div>
+                    <div class="point-content">
+                        <h3 class="point-title">Звуковые практики</h3>
+                        <p class="point-description">
+                            Эмпирическая база включает анализ традиционных ритуальных звукорядов и данные нейрофизиологических измерений реакции вегетативной нервной системы на низкочастотные стимулы.
+                        </p>
+                        <a href="./pages/vzaim.html" class="point-button">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5 - PEOPLE -->
+    <div class="section5_people">
+        <div class="pok1" id="boxx">
+            <div class="boxx1">
+                <img src="./img/glav_pages/мг.png" alt="" class="peop_box">
+                <p class="name_per">Митч Гейер</p>
+                <p class="country">США</p>
+                <hr class="line_per">
+                <p class="text_per">Успешно применял звуковую терапию для улучшения качества жизни и снижения стресса у пациентов с тяжелыми диагнозами.</p>
+            </div>  
+        </div>
+        <div class="pok2" id="boxx2">
+            <div class="boxx2">
+                <img src="./img/glav_pages/та.png" alt="" class="peop_box2">
+                <p class="name_per2">Томатис Альфред</p>
+                <p class="country2">Франция</p>
+                <hr class="line_per2">
+                <p class="text_per2">Разработал «Эффект Томатиса» — метод аудио-вокальных тренировок. Его работы легли в основу современных методик.</p>      
+            </div>
+        </div>   
+        <div class="pok3" id="boxx">
+            <div class="boxx1">
+                <img src="./img/glav_pages/хг.png" alt="" class="peop_box">
+                <p class="name_per">Христиан Гюйгенс</p>
+                <p class="country">Нидерланды</p>
+                <hr class="line_per">
+                <p class="text_per">Открыл феномен «симпатического резонанса», который является фундаментальным физическим принципом, объясняющим, как звук влияет на наш организм.</p>
+            </div>
+        </div>           
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="section8_fin">
+        <div id="fin_plashka">
+           <div class="fin_plashka1">
+                <a href="#" class="logo22">Purity of Aum</a>
+            </div>
+            <div class="fin_plashka2">
+                <a href="./pages/zvuk.html" class="fin1">Звукотерапия</a>
+                <a href="./pages/articles.html" class="fin1">Статьи</a>
+                <a href="./pages/vzaim.html" class="fin1">Взаимодействия</a>
+                <a href="./pages/tests.html" class="fin1">Тесты</a>
+            </div> 
+
+            <div class="btm_fin">
+                <div class="card1">
+                    <form id="thanks" method="POST">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <button type="submit" class="btm_fin_podpis" id="btm_fin_podpis">
+                            <span class="btm_fin_podpis1" id="btm_fin_podpis1">Подписаться</span>
+                        </button>
+                    </form>
+                    <p class="msg" id="congo">Спасибо за подписку!</p>
+                </div>
+            </div>
+
+            <hr class="line_fin">
+            <div class="box_fin">
+                <p class="PoA">2026 Purity of Aum</p>
+                <p class="NS">Настасья Звонарёва</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Бургер меню
+        const burgerMenu = document.getElementById('burgerMenu');
+        const sideMenu = document.getElementById('sideMenu');
+        const sideMenuOverlay = document.getElementById('sideMenuOverlay');
+        const header = document.getElementById('header');
+
+        function toggleSideMenu() {
+            burgerMenu.classList.toggle('active');
+            sideMenu.classList.toggle('active');
+            sideMenuOverlay.classList.toggle('active');
+            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
+        }
+
+        burgerMenu.addEventListener('click', toggleSideMenu);
+        sideMenuOverlay.addEventListener('click', toggleSideMenu);
+
+        document.querySelectorAll('.side-menu-link').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleSideMenu();
+            });
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && sideMenu.classList.contains('active')) {
+                toggleSideMenu();
+            }
+        });
+
+        // Эффект при скролле
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Создание частиц
+        function createParticles() {
+            const container = document.getElementById('particles');
+            if (!container) return;
+            const particleCount = 20;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                const size = Math.random() * 5 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                
+                particle.style.animationDelay = `${Math.random() * 20}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 15}s`;
+                
+                container.appendChild(particle);
+            }
+        }
+
+        createParticles();
+
+        // Intersection Observer для анимации точек
+        const pointObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        document.querySelectorAll('.point-item').forEach(item => {
+            pointObserver.observe(item);
+        });
+
+        // Observer для partner-logo и footer-text
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.partner-logo, .footer-text').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+
+        // Форма подписки
+        const form = document.getElementById("thanks");
+        const successMessage = document.getElementById("congo");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            successMessage.style.display = "block";
+            setTimeout(() => {
+                successMessage.style.display = "none";
+                form.reset();
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
